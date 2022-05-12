@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.9.12 on win32)" generated="20220411 16:46:13.966" rpa="false" schemaversion="3">
+<suite id="s1" name="TC record 004" source="C:\Users\wsharief\PycharmProjects\Robot_Automation\Testcases\LoginTest\TC_record_004.robot">
+<test id="s1-t1" name="Login &amp; Sign Up Forms test" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://thetestingworld.com/testings/index.php?message=1</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<msg timestamp="20220411 16:46:14.132" level="INFO">Opening browser 'chrome' to base url 'https://thetestingworld.com/testings/index.php?message=1'.</msg>
+<status status="PASS" starttime="20220411 16:46:14.132" endtime="20220411 16:46:27.358"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${SLEEP}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220411 16:46:30.373" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220411 16:46:27.359" endtime="20220411 16:46:30.373"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>//a[@href="#"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20220411 16:46:30.374" level="INFO">Clicking link '//a[@href="#"]'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20220411 16:46:30.593" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220411 16:46:30.404" endtime="20220411 16:46:30.593"/>
+</kw>
+<msg timestamp="20220411 16:46:30.594" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=100.0.4896.75)
+</msg>
+<status status="FAIL" starttime="20220411 16:46:30.374" endtime="20220411 16:46:30.596"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${SLEEP}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220411 16:46:30.597" endtime="20220411 16:46:30.597"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>//a[@href="https://t.me/joinchat/GgRlDbOsbSzkJElL"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220411 16:46:30.597" endtime="20220411 16:46:30.597"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${SLEEP}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220411 16:46:30.597" endtime="20220411 16:46:30.597"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>//a[@href="https://www.facebook.com/groups/461729974772386/?ref=nf_target&amp;hc_ref=ARSCrv_mrMgSSDWqT4b8kx3RpnWSI6K9uEhVNH-HHMESWvrSmtpqCg2IXKIcVMNXau8&amp;fref=gs&amp;dti=461729974772386&amp;hc_location=group"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220411 16:46:30.598" endtime="20220411 16:46:30.598"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${SLEEP}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220411 16:46:30.598" endtime="20220411 16:46:30.598"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>//a[@href="https://www.youtube.com/channel/UCsdoSHH5bucBf_wwtvWJfnQ/playlists"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220411 16:46:30.598" endtime="20220411 16:46:30.598"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${SLEEP}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220411 16:46:30.599" endtime="20220411 16:46:30.599"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>xpath=(//a)[5]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220411 16:46:30.599" endtime="20220411 16:46:30.599"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>${SLEEP}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220411 16:46:30.599" endtime="20220411 16:46:30.599"/>
+</kw>
+<status status="FAIL" starttime="20220411 16:46:14.131" endtime="20220411 16:46:30.600">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=100.0.4896.75)
+</status>
+</test>
+<doc>A test suite with a single test for Login &amp; Sign Up Forms
+Created by hats' Robotcorder</doc>
+<status status="FAIL" starttime="20220411 16:46:13.967" endtime="20220411 16:46:30.600"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC record 004">TC record 004</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
